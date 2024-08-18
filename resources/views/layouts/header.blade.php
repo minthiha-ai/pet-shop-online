@@ -1,22 +1,3 @@
-<!-- Start Top Header Area -->
-        <div class="top-header-area">
-            <div class="container-fluid">
-                <div class="row align-items-center">
-                    <div class="col-lg-6 col-md-6 col-sm-6">
-                        <p>FREE 5 days shipping over $99</p>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6">
-                        <ul>
-                            <li><a href="https://www.facebook.com/login/" target="_blank"><i class='bx bxl-facebook'></i></a></li>
-                            <li><a href="https://twitter.com/i/flow/login" target="_blank"><i class='bx bxl-twitter'></i></a></li>
-                            <li><a href="https://www.instagram.com/accounts/login/" target="_blank"><i class='bx bxl-instagram'></i></a></li>
-                            <li><a href="https://www.youtube.com/" target="_blank"><i class='bx bxl-youtube'></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End Top Header Area -->
 
         <!-- Start Navbar Area -->
         <div class="navbar-area">

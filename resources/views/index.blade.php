@@ -26,7 +26,7 @@
         <!-- End Main Banner Area -->
 
         <!-- Start Offer Area -->
-        <div class="offer-area pt-100 pb-75">
+        {{-- <div class="offer-area pt-100 pb-75">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-4 col-md-6">
@@ -52,11 +52,11 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
         <!-- End Offer Area -->
 
         <!-- Start Categories Area -->
-        <div class="categories-area pb-75">
+        <div class="categories-area pb-75 pt-75">
             <div class="container">
                 <div class="section-title">
                     <h2>Shop by Categories</h2>
@@ -523,164 +523,6 @@
             </div>
         </div>
         <!-- End Offer Area -->
-
-        <!-- Start Brands Area -->
-        <div class="brands-area pb-75">
-            <div class="container">
-                <div class="section-title">
-                    <h2>Top Brands</h2>
-                </div>
-                <div class="row justify-content-center align-items-center">
-                    <div class="col-lg-2 col-md-3 col-sm-4 col-4">
-                        <div class="single-brands-box">
-                            <a href="#" class="d-block">
-                                <img src="{{ asset('assets/img/brands/brands1.png') }}" alt="brands">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-3 col-sm-4 col-4">
-                        <div class="single-brands-box">
-                            <a href="#" class="d-block">
-                                <img src="{{ asset('assets/img/brands/brands2.png') }}" alt="brands">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-3 col-sm-4 col-4">
-                        <div class="single-brands-box">
-                            <a href="#" class="d-block">
-                                <img src="{{ asset('assets/img/brands/brands3.png') }}" alt="brands">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-3 col-sm-4 col-4">
-                        <div class="single-brands-box">
-                            <a href="#" class="d-block">
-                                <img src="{{ asset('assets/img/brands/brands4.png') }}" alt="brands">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-3 col-sm-4 col-4">
-                        <div class="single-brands-box">
-                            <a href="#" class="d-block">
-                                <img src="{{ asset('assets/img/brands/brands5.png') }}" alt="brands">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-3 col-sm-4 col-4">
-                        <div class="single-brands-box">
-                            <a href="#" class="d-block">
-                                <img src="{{ asset('assets/img/brands/brands6.png') }}" alt="brands">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End Brands Area -->
-
-        <!-- Start Products Area -->
-        <div class="products-area pb-75">
-            <div class="container">
-                <div class="section-title">
-                    <h2>Special Offers</h2>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12">
-                        <div class="offer-box">
-                            <div class="row align-items-center">
-                                <div class="col-lg-6 col-md-6">
-                                    <div class="image">
-                                        <img src="{{ asset('assets/img/offer/offer7.png') }}" alt="offer-image">
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-md-6">
-                                    <div class="content">
-                                        <h3><a href="#">Premium lamb rice</a></h3>
-                                        <span class="price">$240.00</span>
-                                        <div class="rating">
-                                            <i class='bx bxs-star'></i>
-                                            <i class='bx bxs-star'></i>
-                                            <i class='bx bxs-star'></i>
-                                            <i class='bx bxs-star'></i>
-                                            <i class='bx bxs-star'></i>
-                                        </div>
-                                        <p>Lorem ipsum dolor sit amet, consec tetur adipiscing elit, sed do eiusmod tempor.</p>
-                                        <h3>Place an order now</h3>
-                                        <span class="discount">Enjoy 30% OFF</span>
-                                        <div class="counter-class" data-date="2024-12-24 24:00:00">
-                                            <div><span class="counter-days"></span> Days</div>
-                                            <div><span class="counter-hours"></span> Hours</div>
-                                            <div><span class="counter-minutes"></span> Minutes</div>
-                                            <div><span class="counter-seconds"></span> Seconds</div>
-                                        </div>
-                                        <a href="#" class="default-btn"><span>Shop Now</span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6">
-                        <div class="single-products-box">
-                            <div class="image">
-                                <a href="#" class="d-block">
-                                    <img src="{{ asset('assets/img/products/products13.jpg') }}" alt="products-image">
-                                </a>
-                                <ul class="products-button">
-                                    <li><a href="#"><i class='bx bx-cart-alt'></i></a></li>
-                                    <li><a href="#"><i class='bx bx-heart'></i></a></li>
-                                    <li><a href="#" data-bs-toggle="modal" data-bs-target="#productsQuickView"><i class='bx bx-show'></i></a></li>
-                                    <li><a href="#"><i class='bx bx-link-alt'></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="content">
-                                <h3><a href="#">Premium beef rice</a></h3>
-                                <div class="price">
-                                    <span class="new-price">$139.00</span>
-                                    <span class="old-price">$200.00</span>
-                                </div>
-                                <div class="rating">
-                                    <i class='bx bxs-star'></i>
-                                    <i class='bx bxs-star'></i>
-                                    <i class='bx bxs-star'></i>
-                                    <i class='bx bxs-star'></i>
-                                    <i class='bx bxs-star'></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6">
-                        <div class="single-products-box">
-                            <div class="image">
-                                <a href="#" class="d-block">
-                                    <img src="{{ asset('assets/img/products/products14.jpg') }}" alt="products-image">
-                                </a>
-                                <ul class="products-button">
-                                    <li><a href="#"><i class='bx bx-cart-alt'></i></a></li>
-                                    <li><a href="#"><i class='bx bx-heart'></i></a></li>
-                                    <li><a href="#" data-bs-toggle="modal" data-bs-target="#productsQuickView"><i class='bx bx-show'></i></a></li>
-                                    <li><a href="#"><i class='bx bx-link-alt'></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="content">
-                                <h3><a href="#">Premium pork rice</a></h3>
-                                <div class="price">
-                                    <span class="new-price">$100.00</span>
-                                    <span class="old-price">$120.00</span>
-                                </div>
-                                <div class="rating">
-                                    <i class='bx bxs-star'></i>
-                                    <i class='bx bxs-star'></i>
-                                    <i class='bx bxs-star'></i>
-                                    <i class='bx bxs-star'></i>
-                                    <i class='bx bx-star'></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End Products Area -->
 
         <!-- Start Facility Area -->
         <div class="facility-area">
